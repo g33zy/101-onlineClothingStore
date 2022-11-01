@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="sayHello();">Click Me</button>
+    <button onclick="sayHi();">click me too</button>
+    <input type="submit"></button>
+
+    <input value="" onkeyup="setValue(this.value)"/>
+
+    <script>
+        function sayHello(){ alert('Hello Andrea!') };
+        function sayHi(){ console.log('Hi, Console.log Method!')};
+
+        let usersInput;
+        
+        function setValue(input) {
+            usersInput = input
+            console.log({usersInput})
+     }
+
+    </script>
+</body>
+</html>
